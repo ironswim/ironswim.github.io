@@ -1,0 +1,36 @@
+//colors
+$color-mirage: #151a2d;
+$white: #fff;
+$color-kimberly: #7577aa;
+$color-gamboge: #e69b0c;
+$color-key-lime-pie: #b6d424;
+$color-shamrock: #23d5a5;
+$color-scooter: #23b2d4;
+$color-mariner: #2b6aba;
+$color-minsk: #393975;
+$color-ebony-clay: #24293d;
+$color-east-bay: #44457d;
+$color-curious-blue: #3884cf;
+$black: #000;
+
+//fonts
+$font-0: 'Arial';
+$font-1: 'Helvetica';
+$font-2: 'sans-serif';
+$font-0: 'Arial';
+$font-1: 'Helvetica';
+$font-2: 'sans-serif';
+
+//urls
+$url-0: url(asset_path('hero.jpg'));
+$url-1: url(asset_path('swim1.jpg'));
+$url-2: url(asset_path('swim2.jpg'));
+$url-3: url(asset_path('swim3.jpg'));
+
+%extend-1 {
+  border: solid 1px $color-minsk;
+  padding: 5px;
+  text-align: center;
+}
+
+

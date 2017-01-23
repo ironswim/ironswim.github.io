@@ -1,0 +1,13 @@
+<header class="main-header">
+  <a class="logo" href="{{ site.baseurl }}/">
+    <h1>{{ site.title }}</h1>
+    <h2>{{ site.tagline }}</h2>
+  </a>
+  <nav class="main-menu">
+    <ul>
+      {% for item in site.mainnav %}
+        <li{% if page.name == item.name %} class="selected"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

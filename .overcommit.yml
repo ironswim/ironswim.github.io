@@ -1,0 +1,46 @@
+PreCommit:
+  ALL:
+    on_warn: fail # Treat all warnings as failures
+    exclude:
+      - '_assets/js/lib/**/*'
+  BrokenSymlinks:
+    enabled: true
+  BundleCheck:
+    enabled: true
+  CaseConflicts:
+    enabled: true
+  EsLint:
+    enabled: true
+  HardTabs:
+    enabled: true
+    exclude:
+      - '**/*.svg'
+      - '**/*.json'
+  ImageOptim:
+    enabled: true
+  JsHint:
+    enabled: true
+  JsLint:
+    enabled: false
+  Jscs:
+    enabled: true
+  Jsl:
+    enabled: true
+  JsonSyntax:
+    enabled: true
+  LocalPathsInGemfile:
+    enabled: true
+  MergeConflicts:
+    enabled: true
+  ScssLint:
+    enabled: true
+    exclude:
+      - '_assets/css/_sass/lib/**/*'
+  ShellCheck:
+    enabled: true
+  TrailingWhitespace:
+    enabled: true
+    exclude:
+      - '**/*.svg'
+  YamlSyntax:
+    enabled: true

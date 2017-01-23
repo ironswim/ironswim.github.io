@@ -1,0 +1,25 @@
+---
+# Site settings
+title: ironswim.pl
+tagline: tagline
+email: kontakt@ironswim.pl
+description: "Szkoła pływania"
+baseurl: "/ironswim"  # the subpath of your site, e.g. /blog/
+url: "https://rzegocki.pl"  # the base hostname & protocol for your site
+
+assets:
+    sources:
+        - _assets/css
+        - _assets/css/_sass
+        - _assets/images
+        - _assets/js
+mainnav:
+    - {title: 'O nas', url: '/o-nas', name: 'o-nas.html'}
+    - {title: 'Dla kogo?', url: '/dla-kogo', name: 'dla-kogo.html'}
+    - {title: 'Instruktorzy', url: '/instruktorzy', name: 'instruktorzy.html'}
+    - {title: 'Cennik', url: '/cennik', name: 'cennik.html'}
+    - {title: 'Zapisy', url: '/zapisy', name: 'zapisy.html'}
+    - {title: 'Lokalizacja', url: '/lokalizacja', name: 'lokalizacja.html'}
+
+# Build settings
+markdown: kramdown

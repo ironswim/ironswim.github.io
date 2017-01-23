@@ -1,0 +1,59 @@
+body {
+  background: $color-mirage;
+  color: $color-kimberly;
+  font-family: $font-0, $font-1, $font-2;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.side-photo-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.side-photo-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.list {
+  list-style: dot;
+  margin: 25px 0 25px 20px;
+}
+
+

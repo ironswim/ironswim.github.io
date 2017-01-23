@@ -1,0 +1,51 @@
+.main-footer {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  line-height: 80px;
+  padding: 0 15px 10px;
+
+  .footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin: 0 15px 0 0;
+      padding: 0;
+
+      a {
+        text-transform: uppercase;
+      }
+
+      &:nth-child(6n-5) a {
+        color: $color-gamboge;
+      }
+
+      &:nth-child(6n-4) a {
+        color: $color-key-lime-pie;
+      }
+
+      &:nth-child(6n-3) a {
+        color: $color-shamrock;
+      }
+
+      &:nth-child(6n-2) a {
+        color: $color-scooter;
+      }
+
+      &:nth-child(6n-1) a {
+        color: $color-mariner;
+      }
+
+      &:nth-child(6n) a {
+        color: $color-minsk;
+      }
+    }
+  }
+
+  .copyright {
+    color: $white;
+  }
+}

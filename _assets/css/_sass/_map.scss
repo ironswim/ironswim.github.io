@@ -1,0 +1,25 @@
+.googlemap {
+  height: 300px;
+  margin: 0 -30px;
+  width: 978px;
+}
+
+.mapmodal {
+  color: $black;
+  font-family: $font-0, $font-1, $font-2;
+  font-size: 12px;
+
+  h1 {
+    font-size: 16px;
+    margin: 0 0 5px;
+  }
+
+  p {
+    margin: 5px 0 0;
+  }
+
+  address {
+    font-style: normal;
+  }
+}
+
