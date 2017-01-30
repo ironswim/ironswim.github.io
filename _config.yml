@@ -4,8 +4,8 @@ title: ironswim.pl
 tagline: Łukasz Kaczmarski
 email: kaczmarskiplywanie@gmail.com
 description: "Szkoła pływania"
-baseurl: "/ironswim"  # the subpath of your site, e.g. /blog/
-url: "https://rzegocki.pl"  # the base hostname & protocol for your site
+baseurl: ""  # the subpath of your site, e.g. /blog/
+url: "http://www.ironswim.pl"  # the base hostname & protocol for your site
 
 assets:
     sources:
