@@ -1,8 +1,8 @@
 ---
 # Site settings
 title: ironswim.pl
-tagline: tagline
-email: kontakt@ironswim.pl
+tagline: Łukasz Kaczmarski
+email: kaczmarskiplywanie@gmail.com
 description: "Szkoła pływania"
 baseurl: "/ironswim"  # the subpath of your site, e.g. /blog/
 url: "https://rzegocki.pl"  # the base hostname & protocol for your site
@@ -14,12 +14,15 @@ assets:
         - _assets/images
         - _assets/js
 mainnav:
-    - {title: 'O nas', url: '/o-nas', name: 'o-nas.html'}
+    - {title: 'Start', url: '/', name: 'index.html'}
+    - {title: 'O mnie', url: '/o-mnie', name: 'o-mnie.html'}
     - {title: 'Dla kogo?', url: '/dla-kogo', name: 'dla-kogo.html'}
-    - {title: 'Instruktorzy', url: '/instruktorzy', name: 'instruktorzy.html'}
     - {title: 'Cennik', url: '/cennik', name: 'cennik.html'}
-    - {title: 'Zapisy', url: '/zapisy', name: 'zapisy.html'}
     - {title: 'Lokalizacja', url: '/lokalizacja', name: 'lokalizacja.html'}
+    - {title: 'Kontakt', url: '/kontakt', name: 'kontakt.html'}
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-autoprefixer

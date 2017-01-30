@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'octopress'
+
 gem 'jekyll', '~> 3.0.0'
 
 group :development do
@@ -13,5 +14,6 @@ end
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
+  gem 'jekyll-autoprefixer'
   gem 'jekyll-press'
 end

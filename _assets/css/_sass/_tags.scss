@@ -3,40 +3,55 @@ body {
   color: $color-kimberly;
   font-family: $font-0, $font-1, $font-2;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 17px;
 }
 
 a {
+  color: $color-shamrock;
   cursor: pointer;
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 h1 {
+  font-family: $font-header, $font-0, $font-1, $font-2;
   margin: 0;
   padding: 0;
 }
 
 h2 {
+  font-family: $font-header, $font-0, $font-1, $font-2;
   margin: 0;
   padding: 0;
 }
 
 h3 {
+  font-family: $font-header, $font-0, $font-1, $font-2;
+  font-size: 21px;
+  font-weight: bold;
   margin: 0;
   padding: 0;
 }
 
 h4 {
+  color: $white;
+  font-family: $font-header, $font-0, $font-1, $font-2;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
 h5 {
+  font-family: $font-header, $font-0, $font-1, $font-2;
   margin: 0;
   padding: 0;
 }
 
 h6 {
+  font-family: $font-header, $font-0, $font-1, $font-2;
   margin: 0;
   padding: 0;
 }
@@ -56,4 +71,20 @@ h6 {
   margin: 25px 0 25px 20px;
 }
 
+.list-pools li {
+  margin-bottom: 10px;
+}
 
+.gallery {
+  align-items: center;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  overflow: hidden;
+
+  li {
+    flex-basis: 100%;
+    float: left;
+  }
+}

@@ -55,7 +55,7 @@
     }
 
     &:nth-child(3n-2) {
-      background: $color-ebony-clay $url-1 no-repeat;
+      background: $color-ebony-clay-1 $url-1 no-repeat;
 
       h3 {
         background: linear-gradient(to right, $color-east-bay 0, $color-minsk 100%);
@@ -63,7 +63,7 @@
     }
 
     &:nth-child(3n-1) {
-      background: $color-ebony-clay $url-2 no-repeat;
+      background: $color-ebony-clay-2 $url-2 no-repeat;
 
       h3 {
         background: linear-gradient(to right, $color-curious-blue 0, $color-mariner 100%);
@@ -71,7 +71,7 @@
     }
 
     &:nth-child(3n) {
-      background: $color-ebony-clay $url-3 no-repeat;
+      background: $color-ebony-clay-3 $url-3 no-repeat;
 
       h3 {
         background: linear-gradient(to right, $color-scooter 0, $color-scooter 100%);

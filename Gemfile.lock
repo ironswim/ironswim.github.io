@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
+    autoprefixer-rails (6.3.7)
+      execjs
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
     colorator (0.1)
@@ -45,6 +47,8 @@ GEM
       sprockets (~> 3.3)
       sprockets-helpers (~> 1.2)
       tilt (~> 2.0)
+    jekyll-autoprefixer (1.0.1)
+      autoprefixer-rails (~> 6.3.6)
     jekyll-press (0.2.1)
       html_press (>= 0.8.2)
       jekyll
@@ -113,6 +117,7 @@ DEPENDENCIES
   image_optim
   jekyll (~> 3.0.0)
   jekyll-assets
+  jekyll-autoprefixer
   jekyll-press
   octopress
   overcommit
