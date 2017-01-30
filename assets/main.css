@@ -707,12 +707,12 @@ h6 {
     font-style: normal; }
 
 .main-header {
-  background: url("/ironswim/assets/hero.jpg") no-repeat;
+  background: url("/assets/hero.jpg") no-repeat;
   margin-bottom: 35px;
   padding-top: 388px;
   position: relative; }
   .main-header .logo {
-    background: url("/ironswim/assets/logo-bg.png");
+    background: url("/assets/logo-bg.png");
     display: block;
     height: 128px;
     position: absolute;
@@ -811,17 +811,17 @@ h6 {
       .section-row .swim-section p strong {
         color: #2b6aba; }
     .section-row .swim-section:nth-child(3n-2) {
-      background: #25293e url("/ironswim/assets/swim1.jpg") no-repeat; }
+      background: #25293e url("/assets/swim1.jpg") no-repeat; }
       .section-row .swim-section:nth-child(3n-2) h3 {
         background: -webkit-linear-gradient(left, #44457d 0, #393975 100%);
         background: linear-gradient(to right, #44457d 0, #393975 100%); }
     .section-row .swim-section:nth-child(3n-1) {
-      background: #23273b url("/ironswim/assets/swim2.jpg") no-repeat; }
+      background: #23273b url("/assets/swim2.jpg") no-repeat; }
       .section-row .swim-section:nth-child(3n-1) h3 {
         background: -webkit-linear-gradient(left, #3884cf 0, #2b6aba 100%);
         background: linear-gradient(to right, #3884cf 0, #2b6aba 100%); }
     .section-row .swim-section:nth-child(3n) {
-      background: #212538 url("/ironswim/assets/swim3.jpg") no-repeat; }
+      background: #212538 url("/assets/swim3.jpg") no-repeat; }
       .section-row .swim-section:nth-child(3n) h3 {
         background: -webkit-linear-gradient(left, #23b2d4 0, #23b2d4 100%);
         background: linear-gradient(to right, #23b2d4 0, #23b2d4 100%); }
